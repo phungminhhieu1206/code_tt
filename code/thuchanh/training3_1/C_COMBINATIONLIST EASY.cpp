@@ -11,8 +11,6 @@ bool visited[N];
 int n;
 int m;
 int x[N];
-bool s[N*(N+1)/2];
-int temp;
 
 void solution() {
     for (int i=1; i<=m; i++) {
@@ -22,24 +20,20 @@ void solution() {
 }
 
 bool check(int v, int k) {
-    return !visited[v];
+    if (visited[v] || v < x[k-1]) return false;
+    return true;
 }
 
 void Try(int k) {
     for (int v=1; v<=n; v++) {
         if(check(v, k)) {
             x[k] = v;
-            temp += v;p
             visited[v] = true;
             if(k==m) {
-                if (!s[temp]) {
-                    s[temp] = true;
-                    solution();
-;                }
+                solution();
             }
 
             else Try(k+1);
-            temp -= v;
             visited[v] = false;
         }
 
