@@ -1,4 +1,6 @@
 /*
+    - Chưa thành công với đề bài trên codeforce
+
     - Tự code:
         + Bài toán hoán vị 1-> n
         + Cố định xuất phát từ 1, tìm hoán vị 2->n
