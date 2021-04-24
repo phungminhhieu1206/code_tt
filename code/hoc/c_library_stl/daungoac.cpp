@@ -13,14 +13,14 @@ bool check(string str) {
 			    s.pop();
 			else if(!s.empty() && c == ')' && s.top() == '(')
 			    s.pop();
-			else return false;
+			else return 0;
 		}
 	}
-	return true;
+	return 1;
 }
 int main() {
-	int T; cin >> T;
-	while(T--) {
+	int t; cin >> t;
+	while(t--) {
 		string str; cin >> str;
 		if(check(str)) cout << 1 << endl;
 		else cout << 0 << endl;
