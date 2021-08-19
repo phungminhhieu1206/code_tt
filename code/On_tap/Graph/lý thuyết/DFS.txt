@@ -1,0 +1,3 @@
+- tiến hành thăm đỉnh u,
+- nếu tồn tại v trong danh sách kề với u chưa được thăm thì gọi đệ quy DFS(v)
+- ngược lại quay lại đỉnh x trong danh sách kề với u rồi duyệt theo chiều sâu với DFS(x)

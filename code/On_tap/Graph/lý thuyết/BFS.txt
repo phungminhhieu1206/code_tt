@@ -1,0 +1,8 @@
+- thuật toán lan
+- xuất phát từ đỉnh u (mức 0)
+- sau đó thăm các đỉnh kề với u, (đỉnh ở mức 1)
+- sau đó thăm các đỉnh kề với đỉnh mức 1- mà chưa được thăm (đỉnh ở mức 2)
+
++ cấu trúc hàng đợi:, mỗi đỉnh được thăm đúng 1 lần
++ A[v]: tập các đỉnh kề với đỉnh v
++ đánh dấu visited[v] = true => v được thăm

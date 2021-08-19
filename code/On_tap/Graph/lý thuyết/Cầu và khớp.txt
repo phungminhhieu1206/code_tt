@@ -1,0 +1,2 @@
+- cầu: là cạnh, mà khi loại bỏ nó khỏi đồ thị thì số thành phần liên thông của đồ thị tăng lên
+- khớp: là đỉnh, mà khi loại bỏ nó và các cạnh kề với nó khỏi đồ thị thì số thành phần liên thông của đồ thị tăng lên
